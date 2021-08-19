@@ -31,10 +31,36 @@ h2{
     padding: 10px 30px;
     background-image: linear-gradient(rgba(255, 16, 16, 0.911), rgba(218, 114, 29, 0.884));
     border-radius: 5px;
+    color: white;
 }
 .big-dream{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-    
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.experience-bg{
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+#pro-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(red, blue);
+    border-image-slice: 1;
+}
+#puchka-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(255, 196, 0), blue);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
